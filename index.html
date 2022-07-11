@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Website Practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend><h1>Mortgage Calculator</h1></legend>
+            <p>Use Zillow's home loan calculator to quickly estimate your total mortgage payment including principal and interest, plus estimates for PMI, property taxes, home insurance and HOA fees. Enter the price of a home and down payment amount to calculate your estimated mortgage payment with an itemized breakdown and schedule. Adjust the loan details to fit your scenario more accurately.</p>
+
+            <div>
+                <p><strong>Home Price</strong></p>
+                <input id="home_price" type="number"><br>
+
+                <p><strong>Down Payment Percent</strong></p>
+                <input id="down_payment" type="number"><br>
+ 
+                <p><strong>Loan Term in Years</strong></p>
+                <input id="loan_program" type="number"><br>
+
+                <p><strong>Interest Rate</strong></p>
+                <input id="interest_rate" type="number"><br>
+
+                <br><input id="calculate" type="button" value="Calculate Payment">
+            </div>
+        </fieldset>
+    </form>
+    <p id="output"></p>
+    <p id="principal"></p>
+    <p id="interest"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
